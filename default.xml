@@ -15,6 +15,13 @@
   <project path="build" name="jcrom_build" remote="jcrom" revision="lolli">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+  #Source for Sony Xperia Z1 (C6903)
+  <project path="device/sony/honami" remote="cyanogenmod" name="android_device_sony_honami" revision="cm-12.1" group="device" />
+  <project path="device/sony/common" remote="cyanogenmod" name="android_device_sony_common" revision="cm-12.1" group="device" />
+  <project path="device/sony/rhine-common" remote="cyanogenmod" name="android_device_sony_rhine-common" revision="cm-12.1" group="device" />
+  <project path="device/sony/msm8974-common" remote="cyanogenmod" name="android_device_sony_msm8974-common" revision="cm-12.1" group="device" />
+  <project path="kernel/sony/msm8974" remote="cyanogenmod" name="android_kernel_sony_msm8974" revision="cm-12.1" />
 
   <project path="device/asus/grouper" name="jcrom_device_asus_grouper" remote="jcrom" revision="lolli" />
   <project path="device/asus/flo" name="jcrom_device_asus_flo" remote="jcrom" revision="lolli" />
